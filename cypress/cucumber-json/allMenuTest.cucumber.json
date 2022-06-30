@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should be able to select any category from the ALL menu and confirm it's subcategories are listed",
+    "line": 1,
+    "id": "user-should-be-able-to-select-any-category-from-the-all-menu-and-confirm-it's-subcategories-are-listed",
+    "tags": [],
+    "uri": "allMenuTest.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-select-any-category-from-the-all-menu-and-confirm-it's-subcategories-are-listed;user-should-access-the-\"smart-home\"-department-from-all-menu-and-see-the-correct-list-of-smart-home-sub-categories",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User should access the \"Smart Home\" department from all menu and see the correct list of Smart Home sub-categories",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "go to amazon url",
+            "result": {
+              "status": "passed",
+              "duration": 5773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Select All menu",
+            "result": {
+              "status": "passed",
+              "duration": 2503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Select Smart Home department",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the sub-categories of the department are \"16\"",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

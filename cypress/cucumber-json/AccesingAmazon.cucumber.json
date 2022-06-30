@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Accesing Amozon",
+    "line": 1,
+    "id": "accesing-amozon",
+    "tags": [],
+    "uri": "accesingAmazon.feature",
+    "elements": [
+      {
+        "id": "accesing-amozon;user-should-be-able-to-go-to-amazon-website",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User should be able to go to Amazon website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "go to amazon url",
+            "result": {
+              "status": "passed",
+              "duration": 3340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify Amazon logo is visible",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verify title contains \"Amazon\"",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
