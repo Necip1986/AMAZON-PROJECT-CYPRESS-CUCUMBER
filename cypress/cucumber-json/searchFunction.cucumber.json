@@ -1,0 +1,53 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should be able to search for a product and confirm all products contain the same name",
+    "line": 1,
+    "id": "user-should-be-able-to-search-for-a-product-and-confirm-all-products-contain-the-same-name",
+    "tags": [],
+    "uri": "searchFunction.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-search-for-a-product-and-confirm-all-products-contain-the-same-name;user-should-see-each-search-result-includes-the-relative-product-name",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User should see each search result includes the relative product name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "search \"Lenovo\" in amazon",
+            "result": {
+              "status": "passed",
+              "duration": 17003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify that all the products listed includes \"Lenovo\"",
+            "result": {
+              "status": "failed",
+              "duration": 9378000000,
+              "error_message": "AssertionError: Timed out retrying after 6000ms: expected '<span.a-size-medium.a-color-base.a-text-normal>' to contain text 'Lenovo', but the text was 'USB Docking Station, HaydensJoy 5 in 1 Dual Display 3.0 USB C Laptop Docking Station, with 100W Power Delivery, with 4K HDMI, USB C Hub,Ethernet Port for MacBook Air, MacBook Pro, XPS, Type C Laptops'\n    + expected - actual\n\n    -'USB Docking Station, HaydensJoy 5 in 1 Dual Display 3.0 USB C Laptop Docking Station, with 100W Power Delivery, with 4K HDMI, USB C Hub,Ethernet Port for MacBook Air, MacBook Pro, XPS, Type C Laptops'\n    +'Lenovo'\n\n    at Context.eval (https://www.amazon.com/__cypress/tests?p=cypress\\integration\\searchFunction.feature:93:55)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

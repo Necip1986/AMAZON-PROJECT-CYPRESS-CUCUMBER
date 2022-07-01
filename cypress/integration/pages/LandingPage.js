@@ -30,6 +30,10 @@ class LandingPage {
     getSearchButton(){
         return cy.get('#nav-search-submit-button')
     }
+
+    getButtomLinksTableElements(){
+        return cy.get(".navFooterMoreOnAmazon tbody td .nav_a");
+    }
 }
 
 export default LandingPage;

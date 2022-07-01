@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should be able to make filtering and sorting in product list process",
+    "line": 1,
+    "id": "user-should-be-able-to-make-filtering-and-sorting-in-product-list-process",
+    "tags": [],
+    "uri": "filterFunction.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-make-filtering-and-sorting-in-product-list-process;user-should-see-the-products-are-sorted-by-brand-name",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User should see the products are sorted by brand name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "search \"HeadPhones\" in amazon",
+            "result": {
+              "status": "passed",
+              "duration": 18075000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "select \"Sony\" brand from Featured Brands section",
+            "result": {
+              "status": "passed",
+              "duration": 8862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify all products contain \"Sony\"",
+            "result": {
+              "status": "passed",
+              "duration": 5152000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

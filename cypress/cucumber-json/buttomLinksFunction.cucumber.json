@@ -1,0 +1,63 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should see the links in a row or column presenting at the bottom of the home page and be able to  forward to the correct page",
+    "line": 1,
+    "id": "user-should-see-the-links-in-a-row-or-column-presenting-at-the-bottom-of-the-home-page-and-be-able-to--forward-to-the-correct-page",
+    "tags": [],
+    "uri": "buttomLinksFunction.feature",
+    "elements": [
+      {
+        "id": "user-should-see-the-links-in-a-row-or-column-presenting-at-the-bottom-of-the-home-page-and-be-able-to--forward-to-the-correct-page;user-should-see-that-the-second-column-of-the-links-listed-at-the-bottom-of-the-home-page-navigate-user-to-right-pages.",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User should see that the second column of the links listed at the bottom of the home page navigate user to right pages.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "go to amazon url",
+            "result": {
+              "status": "passed",
+              "duration": 9723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Scroll down to the bottom of the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Click the links in the second column and verifies page name",
+            "result": {
+              "status": "failed",
+              "duration": 41589000000,
+              "error_message": "CypressError: Timed out after waiting `20000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `20000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://www.amazon.com/__cypress/runner/cypress_runner.js:162428:74)\n    at https://www.amazon.com/__cypress/runner/cypress_runner.js:163124:18\nFrom previous event:\n    at goNumber (https://www.amazon.com/__cypress/runner/cypress_runner.js:163123:57)\n    at goString (https://www.amazon.com/__cypress/runner/cypress_runner.js:163140:20)\n    at Context.go (https://www.amazon.com/__cypress/runner/cypress_runner.js:163157:16)\nFrom Your Spec Code:\n    at _loop (https://www.amazon.com/__cypress/tests?p=cypress\\integration\\buttomLinksFunction.feature:73:10)\n    at Context.eval (https://www.amazon.com/__cypress/tests?p=cypress\\integration\\buttomLinksFunction.feature:80:7)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

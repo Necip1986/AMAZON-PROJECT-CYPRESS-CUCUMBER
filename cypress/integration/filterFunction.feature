@@ -2,6 +2,7 @@ Feature: User should be able to make filtering and sorting in product list proce
 
     Background: set up data
         Given setup data
+        
     Scenario: User should see the products are sorted by brand name
         Given search "HeadPhones" in amazon
         And select "Sony" brand from Featured Brands section

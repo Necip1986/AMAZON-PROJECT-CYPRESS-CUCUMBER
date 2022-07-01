@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User should be able to select a random product and add to basket. Confirm that sum of the price of added product should be same as in the basket",
+    "line": 1,
+    "id": "user-should-be-able-to-select-a-random-product-and-add-to-basket.-confirm-that-sum-of-the-price-of-added-product-should-be-same-as-in-the-basket",
+    "tags": [],
+    "uri": "addToCartFunction.feature",
+    "elements": [
+      {
+        "id": "user-should-be-able-to-select-a-random-product-and-add-to-basket.-confirm-that-sum-of-the-price-of-added-product-should-be-same-as-in-the-basket;user-should-see-the-total-price-of-all-added-products-appear-same-as-in-the-basket",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User should see the total price of all added products appear same as in the basket",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "setup data",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "search \"HeadPhones\" in amazon",
+            "result": {
+              "status": "passed",
+              "duration": 17086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Add first two products to the Basket",
+            "result": {
+              "status": "passed",
+              "duration": 86481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the products are added successfully",
+            "result": {
+              "status": "failed",
+              "duration": 606000000,
+              "error_message": "AssertionError: expected '        Srhythm NC25 Active Noise Cancelling Headphones Bluetooth 5.0,ANC Stereo Headset Over-Ear with Hi-Fi,Mic,50H Playtime,Voice Assistant,Low Latency Game Mode       ' to include 'COMECASE Trave'\n    at Context.eval (https://www.amazon.com/__cypress/tests?p=cypress\\integration\\addToCartFunction.feature:95:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Verify the subtotal is correct",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
