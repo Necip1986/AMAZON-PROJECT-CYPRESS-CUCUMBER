@@ -13,12 +13,6 @@ Given('setup data', function () {
         })
 })
 
-Given('setup data', function () {
-    cy.fixture('basicData').then(
-        function (data) {
-            this.data = data;
-        })
-})
 
 Given('go to amazon url', function () {
     cy.visit(this.data.amazon_url)

@@ -34,6 +34,34 @@ class LandingPage {
     getButtomLinksTableElements(){
         return cy.get(".navFooterMoreOnAmazon tbody td .nav_a");
     }
+
+    getAmazonAdvertisingLink(){
+        return cy.get('tbody > :nth-child(1) > :nth-child(3) > .nav_a')
+    }
+
+    getAmazonBusinessLink(){
+        return cy.get(':nth-child(3) > :nth-child(3) > .nav_a')
+    }
+
+    getAmazonBoxOfficeMojoLink(){
+        return cy.get(':nth-child(5) > :nth-child(3) > .nav_a')
+    }
+
+    getKindleDirectPublishingLink(){
+        return cy.get(':nth-child(7) > :nth-child(3) > .nav_a')
+    }
+
+    getEeroLink(){
+        return cy.get(':nth-child(9) > :nth-child(3) > .nav_a')
+    }
+
+    getCreatListLink(){
+        return cy.contains('Create a List')
+    }
+
+    getWelcomeMenu(){
+        return cy.get('#nav-link-accountList > .nav-line-2 > .nav-icon')
+    }
 }
 
 export default LandingPage;
