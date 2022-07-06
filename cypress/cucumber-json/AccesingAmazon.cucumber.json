@@ -21,8 +21,8 @@
             "line": 4,
             "name": "setup data",
             "result": {
-              "status": "passed",
-              "duration": 220000000
+              "status": "undefined",
+              "duration": 124000000
             }
           },
           {
@@ -31,8 +31,7 @@
             "line": 7,
             "name": "go to amazon url",
             "result": {
-              "status": "passed",
-              "duration": 3340000000
+              "status": "skipped"
             }
           },
           {
@@ -41,8 +40,7 @@
             "line": 8,
             "name": "verify Amazon logo is visible",
             "result": {
-              "status": "passed",
-              "duration": 55000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +49,7 @@
             "line": 9,
             "name": "verify title contains \"Amazon\"",
             "result": {
-              "status": "passed",
-              "duration": 33000000
+              "status": "skipped"
             }
           }
         ]

@@ -21,8 +21,8 @@
             "line": 4,
             "name": "setup data",
             "result": {
-              "status": "passed",
-              "duration": 329000000
+              "status": "undefined",
+              "duration": 124000000
             }
           },
           {
@@ -31,8 +31,7 @@
             "line": 5,
             "name": "go to amazon url",
             "result": {
-              "status": "passed",
-              "duration": 3832000000
+              "status": "skipped"
             }
           },
           {
@@ -41,8 +40,7 @@
             "line": 6,
             "name": "Sign in with valid credentials",
             "result": {
-              "status": "passed",
-              "duration": 9235000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +49,7 @@
             "line": 10,
             "name": "Hover over Account&Lists and click on Create a List",
             "result": {
-              "status": "passed",
-              "duration": 3929000000
+              "status": "skipped"
             }
           },
           {
@@ -61,8 +58,7 @@
             "line": 11,
             "name": "Verify the Lists page appears.",
             "result": {
-              "status": "passed",
-              "duration": 54000000
+              "status": "skipped"
             }
           },
           {
@@ -71,8 +67,7 @@
             "line": 12,
             "name": "Click on the Create a List button, type shopping list name on the pop-up and accept",
             "result": {
-              "status": "passed",
-              "duration": 5205000000
+              "status": "skipped"
             }
           },
           {
@@ -81,8 +76,7 @@
             "line": 13,
             "name": "Verify the name appears",
             "result": {
-              "status": "passed",
-              "duration": 92000000
+              "status": "skipped"
             }
           },
           {
@@ -91,8 +85,7 @@
             "line": 14,
             "name": "And  Hover over MoreOption menu on the current page and click on Manage List",
             "result": {
-              "status": "passed",
-              "duration": 1079000000
+              "status": "skipped"
             }
           },
           {
@@ -101,8 +94,7 @@
             "line": 15,
             "name": "Scroll down on the pop-up and click on Delete List button.",
             "result": {
-              "status": "passed",
-              "duration": 2531000000
+              "status": "skipped"
             }
           },
           {
@@ -111,8 +103,7 @@
             "line": 16,
             "name": "Verify Confirm Delete pop-up by clicking on yes button.",
             "result": {
-              "status": "passed",
-              "duration": 2198000000
+              "status": "skipped"
             }
           }
         ]
